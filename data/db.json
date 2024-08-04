@@ -1,0 +1,17 @@
+
+{
+  
+  "productos": [
+        { "id": 1, "nombre": "Iphone 11 Pro", "foto": "img/apple-iphone-11-pro-max.jpg", "descripcion": "256 GB, Batería: 83%, TELEFONO EN PERFECTO ESTADO FUNCIONAL", "precio": 100},
+        { "id": 2, "nombre": "Iphone 12", "foto": "img/apple-iphone-12.jpg", "descripcion": "128 GB, Batería: 100%, TELEFONO EN PERFECTO ESTADO FUNCIONAL", "precio": 100},
+        { "id": 3, "nombre": "Camara Canon", "foto": "img/camara-canon.jpg", "descripcion": "La marca japonesa Canon combina calidad y rendimiento en sus productos.", "precio": 100},
+        { "id": 4, "nombre": "Celular Samsung", "foto": "img/samsung-galaxy-s21-plus-5g.jpg", "descripcion": "Samsung, marca coreana que lidera el mercado desde hace años, se ha vuelto muy conocida por su línea de móviles Galaxy.", "precio": 100},
+        { "id": 5, "nombre": "Chromecast", "foto": "img/chromecast-google.jpg", "descripcion": "Dispositivo que permite a los usuarios enviar contenido de otros dispositivos de forma inalámbrica para poder ver sus películas, series, etc.", "precio": 100},
+        { "id": 6, "nombre": "DJI Mavic 2 Pro",  "foto": "img/dji-mavic-2-pro.jpg", "descripcion": "Con un alcance de transmisión de hasta 8 km e incluye entre otras ventajas el modo de vuelo inteligente, hiperlapso.", "precio": 100},
+        { "id": 7, "nombre": "Lavarropas DH", "foto": "img/lavarropas-dh.jpg", "descripcion": "Mejor rendimiento de lavado y un menor consumo de agua y energía que las lavadoras de carga superior.", "precio": 100},
+        { "id": 8, "nombre": "Modem Motorola", "foto": "img/modem-motorola.jpg", "descripcion": "Con este dispositivo, las paredes y techos no son un obstáculo: Mejor rendimiento en lugares con gran nivel de interferencia.", "precio": 100},
+        { "id": 9, "nombre": "Notebook Lenovo", "foto": "/img/notebook-lenovo.jpg", "descripcion": "Mod. V15 Core I3 8gb 256gb Ssd 15.6 Fhd W11 Nnet es el equipo perfecto para aquellos que buscan rendimiento y portabilidad.", "precio": 100},
+        { "id": 10, "nombre": "Parlante JBL", "foto": "img/parlante-jbl.jpg", "descripcion": "Parlante Bluetooth JBL ® Flip 6 Original Sumergile 30w Ip67", "precio": 100}
+  ]
+
+}
