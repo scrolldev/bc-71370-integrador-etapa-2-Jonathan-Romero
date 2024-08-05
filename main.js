@@ -19,7 +19,8 @@ const start = async () => {
     
     const template = Handlebars.compile(plantilla)
 
-    const respuestaBack = await fetch('http://localhost:8080/productos')
+    //const respuestaBack = await fetch('http://localhost:8080/productos')
+    const respuestaBack = await fetch('https://66a6f42e23b29e17a1a3ccb9.mockapi.io/productos/')
 
     if (!respuestaBack.ok) {
       throw new Error ('Algo paso con la respuesta!', respuestaBack.status)
