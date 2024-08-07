@@ -36,7 +36,7 @@ const start = async () => {
 
     //console.log(html)
 
-    const contenedorCards = document.querySelector('contenedor-cards')
+    const contenedorCards = document.querySelector('#contenedor-cards')
 
     contenedorCards.innerHTML = html
 
