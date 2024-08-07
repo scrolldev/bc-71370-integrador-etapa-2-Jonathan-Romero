@@ -7,7 +7,7 @@ const start = async () => {
 
   try {
 
-    const respuesta = await fetch('templates/card.hbs')
+    const respuesta = await fetch ('templates/card.hbs')
 
     if( !respuesta.ok ) {
       throw new Error('No se pudo obtener la plantilla')
