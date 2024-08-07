@@ -36,9 +36,9 @@ const start = async () => {
 
     //console.log(html)
 
-    const contenedorCards = document.querySelector('contenedor-cards')
+    const containerCards = document.querySelector('#container-cards')
 
-    contenedorCards.innerHTML = html
+    containerCards.innerHTML = html
 
   } catch ( Error ) {
         console.log('Hubo un error l-50')
