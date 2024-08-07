@@ -1,8 +1,9 @@
 import './sass/main.scss'
-import Handlebars from "handlebars";
+import Handlebars from 'handlebars'
 
 const start = async () => {
-  console.log("Hola mundo!")
+
+  //console.log("Hola mundo!")
 
   try {
 
@@ -14,9 +15,8 @@ const start = async () => {
 
     const plantilla = await respuesta.text()
 
-    console.log(plantilla)
+    //console.log(plantilla)
 
-    
     const template = Handlebars.compile(plantilla)
 
     //const respuestaBack = await fetch('http://localhost:8080/productos')
@@ -29,17 +29,19 @@ const start = async () => {
     const dataProductos = await respuestaBack.json()
 
     const data = { productos: dataProductos }
-    console.log(data)
+
+    //console.log(data)
+    
     const html = template(data);
 
-    console.log(html)
+    //console.log(html)
 
-    const contenedorCards = document.querySelector('#contenedor-cards')
+    const contenedorCards = document.querySelector('contenedor-cards')
 
     contenedorCards.innerHTML = html
 
   } catch ( Error ) {
-
+        console.log('Hubo un error l-50')
   }
 }
 
