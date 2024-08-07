@@ -47,4 +47,4 @@ const start = async () => {
 
 
 
-window.addEventListener('DOMContentLoaded', inicio)
+window.addEventListener('DOMContentLoaded', start)
